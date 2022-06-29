@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "yarn run prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "precommit": "husky add .husky/pre-commit 'yarn run build'"
   },
   "eslintConfig": {
     "extends": [
