@@ -3,3 +3,5 @@
 
 yarn run precommit
 yarn run build
+yarn run build
+yarn run build
