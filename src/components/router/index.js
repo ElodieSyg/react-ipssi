@@ -5,10 +5,13 @@ import Contact from "../../pages/contact/index";
 import CV from "../../pages/cv/index";
 import Home from "../../pages/home/index";
 import Project from "../../pages/project/index";
+// Components importations
+import Navbar from "../../components/navbar/index";
 
 const Router = () => {
     return (
         <BrowserRouter>
+            <Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/contact" element={<Contact />} />

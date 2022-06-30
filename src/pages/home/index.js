@@ -1,6 +1,15 @@
+// Components importations
+import React, { Suspense } from "react";
+
 const Home = () => {
+    const Loader = React.lazy(() => import("../../components/loader"));
+
     return (
-        <div>Home</div>
+        <div>
+            <Suspense fallback={<Loader />}>
+                Home
+            </Suspense>
+        </div>
     );
 };
 
