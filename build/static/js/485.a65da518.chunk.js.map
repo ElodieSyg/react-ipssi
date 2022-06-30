@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/485.a65da518.chunk.js","mappings":"yHAWA,UARa,WACT,OACI","sources":["pages/home/index.js"],"sourcesContent":["// Components importations\nimport React from \"react\";\n\nconst Home = () => {\n    return (\n        <div>\n            Home\n        </div>\n    );\n};\n\nexport default Home;"],"names":[],"sourceRoot":""}

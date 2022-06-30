@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/674.85837eaf.chunk.js","mappings":"kHAMA,UANgB,WACZ,OACI","sources":["pages/project/index.js"],"sourcesContent":["const Project = () => {\n    return (\n        <div>Project</div>\n    );\n};\n\nexport default Project;"],"names":[],"sourceRoot":""}
