@@ -1,14 +1,16 @@
 import { useEffect } from "react";
-import { redirect } from "../../hooks/redirect";
+import { useNavigate } from "react-router-dom";
 
-const notFound = () => {
-    // useEffect(() => {
-    //     redirect('/');
-    // }, []);
+const NotFound = () => {
+    let navigate = useNavigate();
+
+    useEffect(() => {
+        navigate('/');
+    }, [navigate]);
 
     return (
-        <div>Not found</div>
+        <div>Not Found</div>
     );
 };
 
-export default notFound;
+export default NotFound;

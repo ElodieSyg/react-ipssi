@@ -1,8 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export const redirect = (path) => {
-    console.log('inside redirect function')
-    // eslint-disable-next-line react-hooks/rules-of-hooks
+export const Redirect = (path) => {
     let navigate = useNavigate();
-    return navigate(path, { replace: true });
+    navigate(path)
 };
