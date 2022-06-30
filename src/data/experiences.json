@@ -1,0 +1,20 @@
+[
+    {
+        "job": "Développeuse fullstack",
+        "type": "Alternance",
+        "company": "Sahar",
+        "start_date": "09/05/2022",
+        "end_date": "En cours",
+        "secteur": "Collecte, analyse et visualisation de données",
+        "description": "SAHAR est spécialisée dans la collecte, l’analyse et la visualisation de données massives. La société conçoit des outils pouvant s’insérer dans des chaînes de traitement ou fonctionner de façon autonome. Elle fonde ainsi sa proposition de valeur sur une approche flexible et innovante de la data science avec des travaux de recherche en IA, ML, Deep Learning, NLP ou encore étude des graphes."
+    },
+    {
+        "job": "Développeuse fullstack",
+        "type": "Alternance",
+        "company": "ie2p",
+        "start_date": "01/03/2022",
+        "end_date": "03/05/2022",
+        "secteur": "Editeur de logiciel",
+        "description": "Avec Mobile InterPay,  payez directement des produits et services destinés à vos proches - nous vous garantissons la livraison grâce à notre système innovant de traçage."
+    }
+]

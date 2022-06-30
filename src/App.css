@@ -3,3 +3,26 @@
   margin: 0;
   box-sizing: 0;
 }
+
+/* GLOBAL CSS */
+
+.title {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.bold {
+ font-weight: bold;
+}
+
+.card-container {
+  margin: 2rem;
+}
+
+.absolute {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  right: 20px;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "JavaScript",
+        "image": "./js.png",
+        "level": 4,
+        "frameworks": ["React", "Next"],
+        "other": []
+    },
+    {
+        "name": "Python",
+        "image": "./python.png",
+        "level": 3,
+        "frameworks": ["Django", "Django rest framework"],
+        "other": ["Scrapping"]
+    },
+    {
+        "name": "PHP",
+        "image": "./php.png",
+        "level": 2,
+        "frameworks": ["Symphony"],
+        "other": []
+    },
+    {
+        "name": "ElasticSearch",
+        "image": "./es.png",
+        "level": 2,
+        "frameworks": [],
+        "other": []
+    }
+]
