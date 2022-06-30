@@ -1,3 +1,4 @@
+import React, { Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Views importations
 import NotFound from "../../pages/404/index";
@@ -9,16 +10,20 @@ import Project from "../../pages/project/index";
 import Navbar from "../../components/navbar/index";
 
 const Router = () => {
+    const Loader = React.lazy(() => import("../../components/loader"));
+
     return (
         <BrowserRouter>
             <Navbar />
-            <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route exact path="/contact" element={<Contact />} />
-                <Route exact path="/cv" element={<CV />} />
-                <Route exact path="/project" element={<Project />} />
-                <Route exact path="/*" element={<NotFound />} />
-            </Routes>
+            <Suspense fallback={<Loader />}>
+                <Routes>
+                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/contact" element={<Contact />} />
+                    <Route exact path="/cv" element={<CV />} />
+                    <Route exact path="/project" element={<Project />} />
+                    <Route exact path="/*" element={<NotFound />} />
+                </Routes>
+            </Suspense>
         </BrowserRouter>
     );
 };
